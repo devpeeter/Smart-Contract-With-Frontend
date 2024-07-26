@@ -1,5 +1,5 @@
  
-# Meta Token
+# MetaToken
 This is a simple decentralized application (DApp) where users get token minted to them, they can check their balance and also withdraw their token.
 
 ## Description
@@ -29,7 +29,7 @@ After cloning the github, do the following to get the code running on your compu
 - Back in the first terminal, type npm run dev to launch the front-end. After this, the project will be running on your localhost. Typically at http://localhost:3000/
 
 ## Authors
-Warith Adebowale
+Peter Fatukasi
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
