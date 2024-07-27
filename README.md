@@ -1,23 +1,12 @@
  
-# MetaToken
-This is a simple decentralized application (DApp) where users get token minted to them, they can check their balance and also withdraw their token.
+# RegisterUser
+This is a simple decentralized application (DApp) where users can register and search for their profiles after registration. Also, a registered user could be deleted.
 
 ## Description
-This is a simple Solidity smart contract comprising five functions: 
-- three defined functions - mintToken, checkUserBalance and userWithdrawals.
-- two automatically generated functions - owner, userBalance.
-
-The three defined functions are:
-
-- mintToken (address _receiver) : This function is what the owner (the EOA account that deloys this contract) of the contract call with function argument  (address _receiver) to mint 10,000 of the token to the address.
-- checkUserBalance(): This function allows a user (msg.sender) to check his/her token balance in the contract.
-- userWithdrawals(uint256 _withdrawalAmount): This function allows user to withdraw token from their balance.
-
-The two automatically generated functions are:
-
-- owner(): This automatically generated function was generated because of the public visibility, and it returns the EOA address that deploys this contract.
-- userBalance(address): This fuction is the function powering the checkUserBalance().
-
+This is a simple Solidity smart contract comprising three functions: 
+- registerUser: allows user to register their profile by inputting their username and gender.
+- viewUser: allows users to view their profile after registration.
+- removeUser: allows the owner of the contract to remove a registered user.
 
 ## Getting Started
 After cloning the github, do the following to get the code running on your computer.
