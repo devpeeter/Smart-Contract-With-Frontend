@@ -9,11 +9,11 @@ const {ethers} = require("ethers");
 
 async function main() {
 
-  const MetaToken = await hre.ethers.getContractFactory("MetaToken");
-  const metaToken = await MetaToken.deploy();
-  await metaToken.deployed();
+  const RegisterUser = await hre.ethers.getContractFactory("RegisterUser");
+  const registerUser = await RegisterUser.deploy();
+  await registerUser.deployed();
 
-  console.log(`MetaToken contract deployed to ${metaToken.address}`);
+  console.log(`RegisterUser contract deployed to ${registerUser.address}`);
 
 }
 
