@@ -16,7 +16,7 @@ export default function HomePage() {
     const [isUserViewed, setIsUserViewed] = useState(false);
 
 
-    const contractAddress = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+    const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
     const atmABI = atm_abi.abi;
 
     const getWallet = async () => {

@@ -17,6 +17,9 @@ After cloning the github, do the following to get the code running on your compu
 - In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js 
 - Back in the first terminal, type npm run dev to launch the front-end. After this, the project will be running on your localhost. Typically at http://localhost:3000/
 
+### Updated Loom Video
+https://www.loom.com/share/87417c9457d048b68312b0920c71fe76?sid=431166cc-0cd3-459f-92b9-40d7c42aa6e4
+
 ## Authors
 Peter Fatukasi
 
